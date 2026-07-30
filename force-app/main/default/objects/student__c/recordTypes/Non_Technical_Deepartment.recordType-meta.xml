@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Non_Technical_Deepartment</fullName>
+    <active>true</active>
+    <label>Non Technical Deepartment</label>
+    <picklistValues>
+        <picklist>Departmeent__c</picklist>
+        <values>
+            <fullName>BPharmacy</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>Dental</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MBBS</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MPharmacy</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ORTHO</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

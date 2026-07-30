@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ap_and_ts</fullName>
+    <active>true</active>
+    <label>ap and ts</label>
+    <picklistValues>
+        <picklist>districts__c</picklist>
+        <values>
+            <fullName>adilabad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>chittor</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>hyderabad</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>kadapa</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>medak</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>nellore</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

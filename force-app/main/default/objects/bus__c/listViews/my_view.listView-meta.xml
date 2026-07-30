@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ListView xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>my_view</fullName>
+    <columns>NAME</columns>
+    <columns>country__c</columns>
+    <columns>shippingmethod__c</columns>
+    <filterScope>Mine</filterScope>
+    <label>my view</label>
+</ListView>

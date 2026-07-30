@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Technical_Department</fullName>
+    <active>true</active>
+    <label>Technical Department</label>
+    <picklistValues>
+        <picklist>Departmeent__c</picklist>
+        <values>
+            <fullName>CSC</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>ECE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>EEE</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>MCA</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>MEC</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>

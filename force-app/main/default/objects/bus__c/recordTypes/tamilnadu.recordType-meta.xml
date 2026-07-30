@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RecordType xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>tamilnadu</fullName>
+    <active>true</active>
+    <description>tamilnadu recordtype</description>
+    <label>tamilnadu</label>
+    <picklistValues>
+        <picklist>districts__c</picklist>
+        <values>
+            <fullName>chennai</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>salem</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>tiruvanamalai</fullName>
+            <default>false</default>
+        </values>
+    </picklistValues>
+</RecordType>
