@@ -26,4 +26,7 @@ trigger summarycontactsinaccount on Contact(after insert, after update, after de
         updateacclist.add(acc);
     }
     update updateacclist;
+    if (trigger.isbefore && trigger.isinsert){
+		contacthelper.dupcontact(trigger.new);
+  }   
 }
